@@ -1,0 +1,150 @@
+{
+  "bot_token": "DEIN_BOT_TOKEN",
+  
+  "features": {
+  "teamliste": true,
+  "teambeitritt": true,
+  "uprank": true,
+  "derank": true,
+  "teamwarn": true,
+  "teamkick": true,
+  "history": true,
+  "removewarn": true
+  },
+
+  "guild_id": DEINE GUILD ID,
+  
+  "team_role_id": [ROLE ID, ROLE ID, ROLE ID],
+  
+  "admin_role_id": [ROLE ID, ROLE ID],    
+
+  "warn_roles": {
+    "1": ROLE ID,
+    "2": ROLE ID,
+    "3": ROLE ID
+  },
+
+  "warn_log_channel": CHANNEL ID,
+  
+"embeds": {
+  "teamliste": {
+    "title": "👥 Teamliste",
+    "color": 3447003,
+    "author": {
+      "name": "Server Team",
+      "icon_url": "https://example.com/team-icon.png"
+    },
+    "thumbnail": "https://example.com/team-thumbnail.png",
+    "image": "https://example.com/team-image.png",
+    "footer": {
+      "text": "Diese Liste wird automatisch aktualisiert.",
+      "icon_url": "https://example.com/footer-icon.png"
+    },
+    "timestamp": true
+  },
+
+  "teambeitritt": {
+    "title": "🎉 Teambeitritt",
+    "description": "Hiermit tritt {member} dem Team als {role} bei!\n\n**Herzlichen Glückwunsch!**\n\nMit freundlichen Grüßen\n{admin}, {admin_roles}",
+    "color": 3066993,
+    "author": {
+      "name": "Team System",
+      "icon_url": "https://example.com/author_icon.png"
+    },
+    "thumbnail": "https://example.com/thumbnail.png",
+    "image": "https://example.com/image.png",
+    "footer": {
+      "text": "Gesendet am",
+      "icon_url": "https://example.com/footer_icon.png"
+    },
+    "timestamp": true
+  },
+
+
+  "uprank": {
+    "title": "📈 Uprank!",
+    "description": "Hiermit erhält {member} seinen **Uprank** von {old_role} zu {new_role}.\n\n**Herzlichen Glückwunsch!**\n\nMit freundlichen Grüßen\n{admin}, {admin_roles}",
+    "color": 5763719,
+    "author": {
+      "name": "Beförderungssystem",
+      "icon_url": "https://example.com/author_icon.png"
+    },
+    "thumbnail": "https://example.com/thumbnail.png",
+    "image": "https://example.com/image.png",
+    "footer": {
+      "text": "Letzte Aktualisierung",
+      "icon_url": "https://example.com/footer_icon.png"
+    },
+    "timestamp": true
+  },
+
+
+  "derank": {
+    "title": "📉 Derank!",
+    "description": "Hiermit erhält {member} seinen **Derank** von {old_role} zu {new_role}.\n\n**Grund:** {reason}\n\nMit freundlichen Grüßen\n{admin}, {admin_roles}",
+    "color": 15105570,
+    "author": {
+      "name": "Derank-System",
+      "icon_url": "https://example.com/author_icon.png"
+    },
+    "thumbnail": "https://example.com/thumbnail.png",
+    "image": "https://example.com/image.png",
+    "footer": {
+      "text": "Letzte Aktualisierung",
+      "icon_url": "https://example.com/footer_icon.png"
+    },
+    "timestamp": true
+  },
+
+  "teamwarn": {
+  "title": "⚠️ Teamwarn!",
+  "description": "{member} hat eine Warnung erhalten.\n\n**Grund:** {reason}\n\nMit freundlichen Grüßen\n{admin}",
+  "color": 15158332,
+  "author": {
+    "name": "Warnsystem",
+    "icon_url": "https://example.com/author_icon.png"
+  },
+  "thumbnail": "https://example.com/thumbnail.png",
+  "image": "https://example.com/image.png",
+  "footer": {
+    "text": "Letzte Aktualisierung",
+    "icon_url": "https://example.com/footer_icon.png"
+  },
+  "timestamp": true
+  },
+  
+  "teamwarn_expired": {
+    "title": "✅ Teamwarn abgelaufen",
+    "description": "{member}, deine Teamwarn wegen `{reason}` ist abgelaufen.",
+    "color": 5763719
+  },
+
+  "teamkick": {
+    "title": "🚨 Teamkick",
+    "description": "{member} wurde aus dem Team entfernt.\n\n**Grund:** {reason}\n\nMit freundlichen Grüßen\n{admin}",
+    "color": 16711680,
+    "author": {
+      "name": "Moderations-Team",
+      "icon_url": "https://example.com/mod-icon.png"
+    },
+    "thumbnail": "https://example.com/thumbnail.png",
+    "image": "https://example.com/big-image.png",
+    "footer": {
+      "text": "Diese Aktion wurde von der Teamleitung durchgeführt.",
+      "icon_url": "https://example.com/footer-icon.png"
+    },
+    "timestamp": true
+  },
+
+
+
+  "history": {
+    "title": "📜 Historie von {member}",
+    "color": 10181046
+  }
+  }
+
+}
+
+
+
