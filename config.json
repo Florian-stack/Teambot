@@ -1,5 +1,5 @@
 {
-  "bot_token": "[BOT_TOKEN]",
+  "bot_token": "Dein_Bot_Token",
 
   "features": {
     "teamliste": true,
@@ -12,19 +12,24 @@
     "removewarn": true
   },
 
-  "guild_id": "[GUILD_ID]",
+  "guild_id": "Server_ID",
 
-  "team_role_id": ["[TEAM_ROLE_ID_1]", "[TEAM_ROLE_ID_2]", "[TEAM_ROLE_ID_3]"],
+  "team_role_id": ["TEAM_ROLE_ID", "TEAM_ROLE_ID", "TEAM_ROLE_ID", "TEAM_ROLE_ID"],
 
-  "admin_role_id": ["[ADMIN_ROLE_ID_1]", "[ADMIN_ROLE_ID_2]"],
+  "admin_role_id": [
+    ADMIN_ROLE_ID,
+    ADMIN_ROLE_ID,
+    ADMIN_ROLE_ID,
+    ADMIN_ROLE_ID
+  ],
 
   "warn_roles": {
-    "1": "[WARN_ROLE_ID_1]",
-    "2": "[WARN_ROLE_ID_2]",
-    "3": "[WARN_ROLE_ID_3]"
+    "1": "WARN_ROLE_ID",
+    "2": "WARN_ROLE_ID",
+    "3": "WARN_ROLE_ID"
   },
 
-  "warn_log_channel": "[WARN_LOG_CHANNEL_ID]",
+  "warn_log_channel": "LOG_CHANNEL_ID",
 
   "embeds": {
     "teamliste": {
